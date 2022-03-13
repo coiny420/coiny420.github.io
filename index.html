@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
     <!-- custom js file link  -->
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
     <script src="js/script.js" defer></script>
 
 </head>
@@ -26,14 +30,14 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-paper-plane"></i>coiny investment group </a>
+    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fa fa-bullseye"></i>coiny investment <br/> group </a>
 
     <nav class="navbar">
         <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">the firm</a>
         <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
         <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">investors</a>
         <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
-        <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">QR Code</a>
+        <!-- <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">QR Code</a> -->
         <!-- <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">blogs</a> -->
     </nav>
 
@@ -51,8 +55,11 @@
         <span data-aos="fade-up" data-aos-delay="150">THE FIRM</span>
         <h3 data-aos="fade-up" data-aos-delay="300">invest with us</h3>
         <p data-aos="fade-up" data-aos-delay="450">Our investments are driven by the
-             extnsive expertise of our teams and we adopt the highest standard of risk managment and both fundamental and technical analysis.</p>
-        <a data-aos="fade-up" data-aos-delay="600" href="#gallery" class="btn">contach us</a>
+             extnsive expertise of our teams and we adopt the highest standard of risk managment and both fundamental and technical analysis.
+             Our main objective is investor satisfaction and our advisors are always available to guide investors in their portfolio choices and provide constant monitoring.
+              We believe that our investors have worked hard for their money and as such they deserve the ultimate peace of mind while letting their money work for them.
+            </p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#gallery" class="btn">contact us</a>
     </div>
 
 </section>
@@ -95,6 +102,31 @@
             <span class="control-btn" data-src="images/invest-vid3.mp4"></span>
         </div> -->
 
+        <img src="images/suit.jfif" alt="">
+    </div>
+
+    <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <!-- <span>why choose us?</span> -->
+        <h3>We are a top-tier international financial institution with years of cumulative experience in the investment advisory industry.</h3>
+        <p> We push the boundaries of traditional investing and provide only the best, personalized solutions for our investors.
+            We focus on attracting highly talented people and on creating an atmosphere that rewards initiative, independent thinking, and integrity.
+             Our solid advisory base, including strong capital, ensures our capacity to deliver on our commitments.
+            </p>
+        <!-- <a href="#" class="btn">read more</a> -->
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <!-- <video src="images/invest-vid3.mp4" muted autoplay loop class="video"></video>
+        <div class="controls">
+            <span class="control-btn" data-src="images/invest-vid1.mp4"></span>
+            <span class="control-btn" data-src="images/invest-vid2.mp4"></span>
+            <span class="control-btn" data-src="images/invest-vid3.mp4"></span>
+        </div> -->
+
         <img src="images/about.jpg" alt="">
     </div>
 
@@ -124,7 +156,113 @@
 
     <div class="heading">
         <span>investors</span>
-        <h1>investors</h1>
+        <h1>We cater to a diversified group of investors encompassing a diverse range of backgrounds, industries, and investment requirements.</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <!-- <div class="image">
+                <img src="images/institutional.jpg" alt="">
+            </div> -->
+            <div class="content">
+                <h3>By pushing the boundaries of traditional investing, Coiny Investment Group provides only the best, personalized solutions for our investors.
+                    Putting our investors’ interests first is at the core of our asset management philosophy.
+                     We also tailor investment strategies to suit the investor’s specific needs.</h3>
+                <!-- <p>By pushing the boundaries of traditional investing, AIX Investment Group provides only the best, personalized solutions for our investors.
+                     Putting our investors’ interests first is at the core of our asset management philosophy.
+                      We also tailor investment strategies to suit the investor’s specific needs.
+                </p> -->
+                <!-- <a href="#">read more <i class="fas fa-angle-right"></i></a> -->
+            </div>
+        </div>
+
+        <!-- <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="image">
+                <img src="images/individual.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>individual investors</h3>
+                <p>We help clients set up college funds, plan for their retirement, make their mortgage payments and everything in between.</p>
+                <!-- <a href="#">read more <i class="fas fa-angle-right"></i></a> -->
+            </div>
+        </div> -->
+
+        <!-- <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="image">
+                <img src="images/des-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>tours & travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <div class="image">
+                <img src="images/des-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>tours & travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="750">
+            <div class="image">
+                <img src="images/des-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>tours & travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="900">
+            <div class="image">
+                <img src="images/des-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>tours & travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1150">
+            <div class="image">
+                <img src="images/des-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>tours & travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1300">
+            <div class="image">
+                <img src="images/des-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>tours & travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div> -->
+
+    </div>
+
+</section>
+
+<section class="destination" id="destination">
+
+    <div class="heading">
+        <!-- <span>investors</span>
+        <h1>investors</h1> -->
     </div>
 
     <div class="box-container">
@@ -135,7 +273,17 @@
             </div>
             <div class="content">
                 <h3>institutional investors</h3>
-                <p>We help companies become stronger, grow faster, and ensure they are well-positioned for sustainable long-term growth.
+                
+                <p>
+                    Our institutional clients can take advantage of several investment opportunities which allow them to establish fixed cash flow dates and secured principals.
+                     Our advisors have considerable experience in a wide field of industries including investments, banking, real estate, development and consulting among others.
+                     This enables them to anticipate the needs of institutional investors regardless of the industry within which they operate and to provide with solutions that satisfy these needs.
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    We help companies become stronger, grow faster, and ensure they are well-positioned for sustainable long-term growth.
+                    
                 </p>
                 <!-- <a href="#">read more <i class="fas fa-angle-right"></i></a> -->
             </div>
@@ -147,7 +295,16 @@
             </div>
             <div class="content">
                 <h3>individual investors</h3>
-                <p>We help clients set up college funds, plan for their retirement, make their mortgage payments and everything in between.</p>
+                <p>
+                    We help individuals from every walk of life prepare and plan for their needs and provide them with investment solutions which help them to
+                     not only preserve their capital but to grow it substantially.
+                      From experienced investors looking to diversify their portfolios to new investors looking to begin their journey towards a future of independence,
+                       we provide personalized solutions which allow them to achieve all of their investment objectives.
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                    We help clients set up college funds, plan for their retirement, make their mortgage payments and everything in between.</p>
                 <!-- <a href="#">read more <i class="fas fa-angle-right"></i></a> -->
             </div>
         </div>
@@ -283,42 +440,44 @@
 <section class="gallery" id="gallery">
 
     <div class="heading">
-        <span>Scan QR Code</span>
-        <h1>make your first investment</h1>
+        <!-- <span>Scan QR Code</span>
+        <h1>make your first investment</h1> -->
     </div>
     
     <div class="box-container">
 
         <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
-            <img src="images/gallery-img-1.jpg" alt="">
-            <span>QR code</span>
-            <h3>Make Payment</h3>
-        </div>
-
-        <!-- <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-            <img src="images/gallery-img-2.jpg" alt="">
-            <span>travel spot</span>
-            <h3>greenland</h3>
-        </div>
-
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
-            <img src="images/gallery-img-3.jpg" alt="">
-            <span>travel spot</span>
-            <h3>alaska</h3>
-        </div>
-
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
-            <img src="images/gallery-img-4.jpg" alt="">
-            <span>travel spot</span>
-            <h3>thailand</h3>
+            <img src="images/new.jpg" alt="">
+            <!-- <span>QR code</span>
+            <h3>Make Payment</h3> -->
         </div>
 
         <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-            <img src="images/gallery-img-5.jpg" alt="">
-            <span>travel spot</span>
-            <h3>brazil</h3>
+            <img src="images/realbuil.jfif" alt="">
+            <!-- <span>travel spot</span>
+            <h3>greenland</h3> -->
         </div>
 
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="images/reales.jpg" alt="">
+            <!-- <span>travel spot</span>
+            <h3>alaska</h3> -->
+        </div>
+
+        
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/bitcoin.jpg" alt="">
+            <!-- <span>travel spot</span>
+            <h3>thailand</h3> -->
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="images/forx.jpg" alt="">
+            <!-- <span>travel spot</span>
+            <h3>brazil</h3> -->
+        </div>
+
+        <!--
         <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
             <img src="images/gallery-img-6.jpg" alt="">
             <span>travel spot</span>
@@ -484,12 +643,28 @@
 
 <!-- footer section starts  -->
 
+
+<div class="popup" id="popup-1">
+
+    <div class="overlay"></div>
+    <div class="content">
+
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h3>SUCCESS</h3>
+        <p>
+            You will be attended to shortly
+        </p>
+
+    </div>
+
+</div>
+
 <section class="footer">
 
     <div class="box-container">
 
         <div class="box" data-aos="fade-up" data-aos-delay="150">
-            <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>coiny investment </a>
+            <a href="#" class="logo"> <i class="fa fa-bullseye"></i>coiny investment </a>
             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
             <div class="share">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -505,26 +680,28 @@
             <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
             <a href="#destination" class="links"> <i class="fas fa-arrow-right"></i> investors </a>
             <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
-            <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> QR code </a>
+            <!-- <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> QR code </a> -->
             <!-- <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a> -->
         </div>
 
         <div class="box" data-aos="fade-up" data-aos-delay="450">
             <h3>contact info</h3>
-            <p> <i class="fas fa-map"></i> mumbai, india </p>
-            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
-            <p> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </p>
-            <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+            <p> <i class="fas fa-map"></i> stockolm, sweden europe </p>
+            <!-- <p> <i class="fas fa-phone"></i> +123-456-7890 </p> -->
+            <p> <i class="fas fa-envelope"></i> coinyinvestment@gmail.com </p>
+            
         </div>
 
-        <!-- <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <h3>newsletter</h3>
-            <p>subscribe for latest updates</p>
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <h3>Let's talk investment</h3>
+            <p>SCHEDULE A MEETING</p>
             <form action="">
-                <input type="email" name="" placeholder="enter your email" class="email" id="">
-                <input type="submit" value="subscribe" class="btn">
+                <input type="email" name="" placeholder="enter your email" class="email" id="investors_mail">
+                <input type="text" name="" placeholder="enter note" class="email" id="investors_note">
+                <button type="submit" class="btn" onclick="save()">submit</button>
             </form>
-        </div> -->
+        
+        </div>
 
     </div>
 
