@@ -30,13 +30,14 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
 
 function save() {
 
-    if (document.getElementById("investors_mail").value == "" || document.getElementById("investors_note").value == "") {
+    if (document.getElementById("investors_name").value == "" || document.getElementById("investors_mail").value == "" || document.getElementById("investors_note").value == "") {
         alert("Fields cannot be empty")
     }
     else {
 
         mail = document.getElementById("investors_mail").value;
         note = document.getElementById("investors_note").value;
+        investorsName = document.getElementById("investors_name").value;
 
         // firebase.database().ref("/").child("wallets").set({
 
@@ -48,19 +49,24 @@ function save() {
         var postListRef = firebase.database().ref('investors');
         var newPostRef = postListRef.push();
         newPostRef.set({
+            my_name: investorsName,
             my_mail: mail,
             my_note: note
         });
 
 
-        togglePopup()
+        // togglePopup()
+
+
     }
 
 
 
 }
 
-function togglePopup() {
+// var form = document.getElementById("my-form")
 
-    document.getElementById("popup-1").classList.toggle("active");
-}
+// function togglePopup() {
+
+//     document.getElementById("popup-1").classList.toggle("active");
+// }
