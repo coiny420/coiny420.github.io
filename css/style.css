@@ -94,6 +94,7 @@ section {
 
 .heading {
   text-align: center;
+  padding-top: 15rem;
   margin-bottom: 2rem;
 }
 
@@ -383,7 +384,7 @@ section {
 }
 
 .destination .box-container .box .content {
-  padding: 2rem;
+  padding: 7rem;
   text-align: center;
 }
 
