@@ -337,6 +337,12 @@ section {
   margin-top: .5rem;
 }
 
+.about .content h4 {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: .3rem;
+}
+
 .about .content p {
   padding: 1rem 0;
   font-size: 1.4rem;
